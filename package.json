@@ -1,52 +1,36 @@
 {
-  "name": "insight-bitcore",
-  "description": "An open-source frontend for the Insight API. The Insight API provides you with a convenient, powerful and simple way to query and broadcast data on the bitcoin network and build your own services with it.",
+  "name": "flappysight",
+  "description": "An open-source frontend for the flappysight API. The flappysight API provides you with a convenient, powerful and simple way to query and broadcast data on the FlappyDEV network and build your own services with it.",
   "version": "0.2.5",
   "author": {
-    "name": "Ryan X Charles",
-    "email": "ryan@bitpay.com"
+    "name": "SS",
+    "email": "flappy@flappycoin.io"
   },
-  "repository": "git://github.com/bitpay/insight.git",
+  "repository": "git://github.com/FlappyDEV/flappysight.git",
   "contributors": [
     {
-      "name": "Matias Alejo Garcia",
-      "email": "ematiu@gmail.com"
-    },
-    {
-      "name": "Manuel Araoz",
-      "email": "manuelaraoz@gmail.com"
-    },
-    {
-      "name": "Mario Colque",
-      "email": "colquemario@gmail.com"
-    },
-    {
-      "name": "Gustavo Cortez",
-      "email": "cmgustavo83@gmail.com"
-    },
-    {
-      "name": "Juan Ignacio Sosa Lopez",
-      "email": "bechilandia@gmail.com"
+      "name": "SS",
+      "email": "flappy@flappycoin.io"
     }
   ],
   "bugs": {
-    "url": "https://github.com/bitpay/insight/issues"
+    "url": "https://github.com/FlappyDEV/flappysight/issues"
   },
-  "homepage": "https://github.com/bitpay/insight",
+  "homepage": "https://github.com/FlappyDEV/flappysight",
   "license": "MIT",
   "keywords": [
     "insight",
     "blockchain",
     "blockexplorer",
-    "bitcoin",
+    "flappycoin",
     "bitcore",
     "front-end"
   ],
   "scripts": {
-    "start": "INSIGHT_PUBLIC_PATH=public node node_modules/.bin/insight-bitcore-api"
+    "start": "INSIGHT_PUBLIC_PATH=public node node_modules/.bin/flappysight-api"
   },
   "dependencies": {
-    "insight-bitcore-api": ">0.2.10"
+    "flappysight-api": "git://github.com/FlappyDEV/flappysight-api.git"
   },
   "devDependencies": {
     "bower": "~1.2.8",
