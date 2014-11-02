@@ -27,7 +27,7 @@
     "front-end"
   ],
   "scripts": {
-    "start": "INSIGHT_PUBLIC_PATH=public node node_modules/.bin/flappysight-api"
+    "start": "INSIGHT_PUBLIC_PATH=public node node_modules/.bin/flappysight-bitcore-api"
   },
   "dependencies": {
     "flappysight-api": "git://github.com/FlappyDEV/flappysight-api.git"
