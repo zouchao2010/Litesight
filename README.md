@@ -1,3 +1,5 @@
+Litesight coming soon..
+
 # *flappysight*
 
 *Flappysight* is an open-source FlappyDEV blockchain explorer with complete REST and websocket APIs.
