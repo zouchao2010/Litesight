@@ -89,7 +89,7 @@ In case you are developing *litesight* and *litesight-api* together, you can do 
 in other terminal:
 
 ```
-  $ cd $IROOT/litesight-api
+  $ cd $IROOT/Litesight-api
   $ ln -s ../Litesight/public
   $ INSIGHT_PUBLIC_PATH=public node insight.js 
 ```
@@ -99,9 +99,9 @@ in other terminal:
 INSIGHT_PUBLIC_PATH=Litesight/public  grunt
 ```
 
-at litesight-api's home path (edit the path according your setup).
+at Litesight-api's home path (edit the path according your setup).
 
-**also** in the Litesight-api path. (So you will have to grunt process running, one for litesight and one for litesight-api).
+**also** in the Litesight-api path. (So you will have to grunt process running, one for Litesight and one for Litesight-api).
 
 
 ## Multilanguage support
@@ -133,7 +133,7 @@ compile***.
 
 ## Note
 
-For more details about the *litesight-api* configs and end-point, just go to [litesight-api github repository](https://github.com/pembo210/litesight-api) or read the [documentation](https://github.com/pembo210/Litesight-api/blob/master/README.md)
+For more details about the *litesight-api* configs and end-point, just go to [litesight-api github repository](https://github.com/pembo210/Litesight-api) or read the [documentation](https://github.com/pembo210/Litesight-api/blob/master/README.md)
 
 ## Contribute
 
