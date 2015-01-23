@@ -1,36 +1,40 @@
 {
-  "name": "flappysight",
-  "description": "An open-source frontend for the flappysight API. The flappysight API provides you with a convenient, powerful and simple way to query and broadcast data on the FlappyDEV network and build your own services with it.",
+  "name": "Litesight",
+  "description": "An open-source frontend for the Litesight API. The Litesight API provides you with a convenient, powerful and simple way to query and broadcast data on the Litecoin network and build your own services with it.",
   "version": "0.2.5",
   "author": {
-    "name": "SS",
-    "email": "flappy@flappycoin.io"
+    "name": "pembo210",
+    "email": "pembo210@gmail.com"
   },
-  "repository": "git://github.com/FlappyDEV/flappysight.git",
+  "repository": "git://github.com/pembo210/Litesight.git",
   "contributors": [
     {
       "name": "SS",
       "email": "flappy@flappycoin.io"
+    },
+   {
+      "name": "pembo210",
+      "email": "pembo210@gmail.com"
     }
   ],
   "bugs": {
-    "url": "https://github.com/FlappyDEV/flappysight/issues"
+    "url": "https://github.com/pembo210/Litesight/issues"
   },
-  "homepage": "https://github.com/FlappyDEV/flappysight",
+  "homepage": "https://github.com/pembo210/Litesight",
   "license": "MIT",
   "keywords": [
     "insight",
     "blockchain",
     "blockexplorer",
-    "flappycoin",
+    "litecoin",
     "bitcore",
     "front-end"
   ],
   "scripts": {
-    "start": "INSIGHT_PUBLIC_PATH=public node node_modules/.bin/flappysight-bitcore-api"
+    "start": "INSIGHT_PUBLIC_PATH=public node node_modules/.bin/Litesight-bitcore-api"
   },
   "dependencies": {
-    "flappysight-api": "git://github.com/FlappyDEV/flappysight-api.git"
+    "Litesight-api": "git://github.com/pembo210/Litesight-api.git"
   },
   "devDependencies": {
     "bower": "~1.2.8",

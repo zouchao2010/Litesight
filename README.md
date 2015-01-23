@@ -1,13 +1,13 @@
 Litesight coming soon..
 
-# *flappysight*
+# *Litesight*
 
-*Flappysight* is an open-source FlappyDEV blockchain explorer with complete REST and websocket APIs.
-Flappysight runs in NodeJS, uses AngularJS for the front-end and LevelDB for storage.
+*Litesight* is an open-source Litecoin blockchain explorer with complete REST and websocket APIs.
+Litesight runs in NodeJS, uses AngularJS for the front-end and LevelDB for storage.
 
-Check some screenshots and more details at [flappysight's project homepage](https://github.com/FlappyDEV/flappysight).
+Check some screenshots and more details at [litesight's project homepage](https://github.com/pembo210/Litesight).
 
-*Flappysight* project is now split in two repositories. One for the [API](https://github.com/FlappyDEV/flappysight-api)
+*Litesight* project is now split in two repositories. One for the [API](https://github.com/pembo210/Litesight-api)
 and for the front-end. This repository is for the front-end, which will install the API as a NPM dependency.
 
 
@@ -21,9 +21,9 @@ and for the front-end. This repository is for the front-end, which will install 
 ## Quick Install
   Check the Prerequisites section above before installing.
 
-  To install flappysight, clone the main repository:
+  To install litesight, clone the main repository:
 
-    $ git clone https://github.com/FlappyDEV/flappysight.git && cd flappysight
+    $ git clone https://github.com/pembo210/Litesight.git && cd Litesight
 
   Install dependencies:
 
@@ -37,8 +37,8 @@ and for the front-end. This repository is for the front-end, which will install 
 
     http://localhost:3000
 
-  If *flappysight* reports problems connecting to **flappycoind** please check the CONFIGURATION section of 
-  [flappysight-api README](https://github.com/FlappyDEV/flappysight-api/blob/master/README.md). To set the 
+  If *litesight* reports problems connecting to **litecoind** please check the CONFIGURATION section of 
+  [litesight-api README](https://github.com/pembo210/Litesight-api/blob/master/README.md). To set the 
   environment variables run something like:
   
      $ INSIGHT_NETWORK=livenet BITCOIND_USER=user BITCOIND_PASS=pass INSIGHT_PUBLIC_PATH=public  npm start
@@ -47,17 +47,17 @@ and for the front-end. This repository is for the front-end, which will install 
   Please note that the app will need to sync its internal database
   with the blockchain state, which may take some time. You can check
   sync progress from within the web interface. More details about that process
-  on [flappysight-api README](https://github.com/FlappyDEV/flappysight-api/blob/master/README.md). 
+  on [litesight-api README](https://github.com/pembo210/Litesight-api/blob/master/README.md). 
   
   
 ## Nginx Setup
 
-To use Nginx as a reverse proxy for flappysight, use the following base [configuration](https://gist.github.com/matiu/bdd5e55ff0ad90b54261)
+To use Nginx as a reverse proxy for litesight, use the following base [configuration](https://gist.github.com/matiu/bdd5e55ff0ad90b54261)
 
 
 ## Development
 
-To run flappysight locally for development mode:
+To run litesight locally for development mode:
 
 Install bower dependencies:
 
@@ -77,36 +77,36 @@ There is a convenient Gruntfile.js for automation during editing the code
 $ grunt
 ```
 
-In case you are developing *flappysight* and *flappysight-api* together, you can do the following:
+In case you are developing *litesight* and *litesight-api* together, you can do the following:
 
-* Install flappysight and flappysight-api on the same path ($IROOT)
+* Install litesight and litesight-api on the same path ($IROOT)
 
 ```
-  $ cd $IROOT/flappysight
+  $ cd $IROOT/Litesight
   $ grunt
 ```
 
 in other terminal:
 
 ```
-  $ cd $IROOT/flappysight-api
-  $ ln -s ../flappysight/public
+  $ cd $IROOT/litesight-api
+  $ ln -s ../Litesight/public
   $ INSIGHT_PUBLIC_PATH=public node insight.js 
 ```
 
 
 ``` 
-INSIGHT_PUBLIC_PATH=flappysight/public  grunt
+INSIGHT_PUBLIC_PATH=Litesight/public  grunt
 ```
 
-at flappysight-api's home path (edit the path according your setup).
+at litesight-api's home path (edit the path according your setup).
 
-**also** in the flappysight-api path. (So you will have to grunt process running, one for flappysight and one for flappysight-api).
+**also** in the Litesight-api path. (So you will have to grunt process running, one for litesight and one for litesight-api).
 
 
 ## Multilanguage support
 
-flappysight use [angular-gettext](http://angular-gettext.rocketeer.be) for
+litesight use [angular-gettext](http://angular-gettext.rocketeer.be) for
 multilanguage support. 
 
 To enable a text to be translated, add the ***translate*** directive to html tags. See more details [here](http://angular-gettext.rocketeer.be/dev-guide/annotate/). Then, run:
@@ -133,11 +133,11 @@ compile***.
 
 ## Note
 
-For more details about the *flappysight-api* configs and end-point, just go to [flappysight-api github repository](https://github.com/FlappyDEV/flappysight-api) or read the [documentation](https://github.com/FlappyDEV/flappysight-api/blob/master/README.md)
+For more details about the *litesight-api* configs and end-point, just go to [litesight-api github repository](https://github.com/pembo210/litesight-api) or read the [documentation](https://github.com/pembo210/Litesight-api/blob/master/README.md)
 
 ## Contribute
 
-Contributions and suggestions are welcomed at [flappysight github repository](https://github.com/FlappyDEV/flappysight).
+Contributions and suggestions are welcomed at [litesight github repository](https://github.com/pembo210/Litesight).
 
 
 ## License
