@@ -1,5 +1,3 @@
-Litesight coming soon..
-
 # *Litesight*
 
 *Litesight* is an open-source Litecoin blockchain explorer with complete REST and websocket APIs.
