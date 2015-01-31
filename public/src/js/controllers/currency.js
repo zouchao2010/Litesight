@@ -48,7 +48,7 @@ angular.module('insight.currency').controller('CurrencyController',
 
       if (currency === 'USD') {
         Currency.get({}, function(res) {
-          $rootScope.currency.factor = $rootScope.currency.bitstamp = res.data.bitstamp;
+          $rootScope.currency.factor = $rootScope.currency.btceusd = res.data.btceusd;
         });
       } else if (currency === 'LTC') {
         $rootScope.currency.factor = 1;
@@ -63,7 +63,7 @@ angular.module('insight.currency').controller('CurrencyController',
 
     // Get initial value
     Currency.get({}, function(res) {
-      $rootScope.currency.factor = $rootScope.currency.bitstamp = res.data.bitstamp;
+      $rootScope.currency.factor = $rootScope.currency.btceusd = res.data.btceusd;
     });
 
   });

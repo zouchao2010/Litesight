@@ -6,7 +6,7 @@ angular.module('insight.system').controller('HeaderController',
 
     $rootScope.currency = {
       factor: 1,
-      bitstamp: 0,
+      btceusd: 0,
       symbol: 'LTC'
     };
 
@@ -16,6 +16,9 @@ angular.module('insight.system').controller('HeaderController',
     }, {
       'title': 'Status',
       'link': 'status'
+        }, {
+      'title': 'API',
+      'link': 'api'
     }];
 
     $scope.openScannerModal = function() {
