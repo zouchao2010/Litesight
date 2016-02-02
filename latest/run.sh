@@ -13,9 +13,7 @@ fi
 #run litesight
 if [ "$INSIGHT_NETWORK" = "testnet" ];
 then
-    export INSIGHT_DB=/var/lib/litesight/testnet
-    npm start | tee -a testnet.log
+    npm start | tee -a /var/lib/litesight/testnet.log
 else
-    export INSIGHT_DB=/var/lib/litesight/livenet
-    npm start | tee -a livenet.log
+    npm start | tee -a /var/lib/litesight/livenet.log
 fi

@@ -36,7 +36,7 @@ docker run  --name litesight \
             -e BITCOIND_HOST=x.x.x.x \
             -e BITCOIND_P2P_HOST=x.x.x.x \
             -e INSIGHT_NETWORK=testnet \
-            -it zouchao2010/litesight
+            -dt zouchao2010/litesight
             
 ```
 

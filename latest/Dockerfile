@@ -31,7 +31,6 @@ ENV BITCOIND_HOST                   127.0.0.1
 ENV BITCOIND_P2P_HOST               127.0.0.1
 ENV BITCOIND_USER                   user
 ENV BITCOIND_PASS                   pass
-ENV BITCOIND_DATADIR                /var/lib/litesight/bitcoind
 
 # livenet|testnet
 ENV INSIGHT_PUBLIC_PATH             public
