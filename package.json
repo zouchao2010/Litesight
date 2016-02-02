@@ -3,24 +3,24 @@
   "description": "An open-source frontend for the Litesight API. The Litesight API provides you with a convenient, powerful and simple way to query and broadcast data on the Litecoin network and build your own services with it.",
   "version": "0.2.5",
   "author": {
-    "name": "pembo210",
-    "email": "pembo210@gmail.com"
+    "name": "zouchao2010",
+    "email": "zouchao2010@gmail.com"
   },
-  "repository": "git://github.com/pembo210/Litesight.git",
+  "repository": "git://github.com/zouchao2010/Litesight.git",
   "contributors": [
     {
       "name": "SS",
       "email": "flappy@flappycoin.io"
     },
    {
-      "name": "pembo210",
-      "email": "pembo210@gmail.com"
+      "name": "zouchao2010",
+      "email": "zouchao2010@gmail.com"
     }
   ],
   "bugs": {
-    "url": "https://github.com/pembo210/Litesight/issues"
+    "url": "https://github.com/zouchao2010/Litesight/issues"
   },
-  "homepage": "https://github.com/pembo210/Litesight",
+  "homepage": "https://github.com/zouchao2010/Litesight",
   "license": "MIT",
   "keywords": [
     "insight",
@@ -34,7 +34,7 @@
     "start": "INSIGHT_PUBLIC_PATH=public node node_modules/.bin/Litesight-bitcore-api"
   },
   "dependencies": {
-    "Litesight-api": "git://github.com/pembo210/Litesight-api.git"
+    "Litesight-api": "git://github.com/zouchao2010/Litesight-api.git"
   },
   "devDependencies": {
     "bower": "~1.2.8",
